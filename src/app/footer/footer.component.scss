@@ -1,0 +1,22 @@
+/* footer.component.scss */
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+  }
+  
+  .footer-images {
+    display: flex;
+    justify-content: right; /* Centra las imágenes en el footer */
+    align-items: center;
+    gap: 20px; /* Espacio entre las imágenes */
+  }
+  
+  .footer-logo {
+    max-height: 50px; /* Ajusta la altura máxima de las imágenes */
+    width: auto; /* Mantén la proporción original de la imagen */
+  }
+  

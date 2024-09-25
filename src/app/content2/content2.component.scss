@@ -1,0 +1,11 @@
+.john-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh; /* Altura completa de la página */
+  }
+  
+  img {
+    max-width: 95%;  /* Ajusta el tamaño máximo de la imagen */
+    height: auto;    /* Mantén la proporción */
+  }
